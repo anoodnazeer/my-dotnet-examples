@@ -1,0 +1,68 @@
+﻿
+@page
+@model HotelBookingSystem.Pages.Hotel.CreateModel
+@{
+    ViewData["Title"] = "Add New Room";
+}
+
+<h2 class="mb-4">Add New Room</h2>
+<div class="border border-2 rounded p-4 bg-light">
+<form method="post">
+  <div asp-validation-summary="ModelOnly" class="alert alert-danger"></div>
+
+  <div class="row">
+    <div class="col-md-6">
+      <!-- Room Number -->
+      <div class="mb-3">
+        <label asp-for="Rooms.RoomNumber" class="form-label"></label>
+        <input asp-for="Rooms.RoomNumber" class="form-control" placeholder="e.g. 101A" />
+        <span asp-validation-for="Rooms.RoomNumber" class="text-danger"></span>
+      </div>
+    </div>
+
+    <div class="col-md-6">
+      <!-- Room Type -->
+      <div class="mb-3">
+        <label asp-for="Rooms.RoomType" class="form-label"></label>
+        <select asp-for="Rooms.RoomType" class="form-select">
+          <option value="">Select type...</option>
+          <option>Single</option>
+          <option>Double</option>
+          <option>Deluxe</option>
+        </select>
+        <span asp-validation-for="Rooms.RoomType" class="text-danger"></span>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-6">
+      <!-- Price -->
+      <div class="mb-3">
+        <label asp-for="Rooms.Price" class="form-label"></label>
+        <input asp-for="Rooms.Price" class="form-control" placeholder="e.g. 150.00" />
+        <span asp-validation-for="Rooms.Price" class="text-danger"></span>
+      </div>
+    </div>
+
+    <div class="col-md-6">
+      <!-- Availability -->
+      <div class="form-check form-switch mt-4">
+        <input asp-for="Rooms.IsAvailable" class="form-check-input" />
+        <label asp-for="Rooms.IsAvailable" class="form-check-label">Available?</label>
+      </div>
+    </div>
+  </div>
+
+  <div class="mt-4">
+    <button type="submit" class="btn btn-primary">Save</button>
+    <a asp-page="List" class="btn btn-secondary ms-2">Cancel</a>
+  </div>
+</form>
+</div>
+
+@section Scripts {
+  <partial name="_ValidationScriptsPartial" />
+}
+
+

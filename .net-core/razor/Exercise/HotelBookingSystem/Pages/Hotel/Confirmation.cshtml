@@ -1,0 +1,51 @@
+﻿@page "{id:int}"
+@model HotelBookingSystem.Pages.Hotel.ConfirmationModel
+@{
+    ViewData["Title"] = "Booking Confirmation";
+}
+
+<div class="container my-5">
+    <div class="alert alert-success border border-success shadow-sm">
+        <h2 class="alert-heading">
+            Booking Confirmed!
+        </h2>
+        <hr />
+        <p>You have successfully booked the following room:</p>
+
+        <dl class="row">
+            <dt class="col-sm-3">Room Number:</dt>
+            <dd class="col-sm-9">@Model.Booking.Room.RoomNumber</dd>
+
+            <dt class="col-sm-3">Room Type:</dt>
+            <dd class="col-sm-9">@Model.Booking.Room.RoomType</dd>
+
+            <dt class="col-sm-3">Customer Name:</dt>
+            <dd class="col-sm-9">@Model.Booking.CustomerName</dd>
+
+            <dt class="col-sm-3">Check-in Date:</dt>
+            <dd class="col-sm-9">@Model.Booking.CheckInDate.ToString("yyyy-MM-dd")</dd>
+
+            <dt class="col-sm-3">Check-out Date:</dt>
+            <dd class="col-sm-9">@Model.Booking.CheckOutDate.ToString("yyyy-MM-dd")</dd>
+
+            <dt class="col-sm-3">Total Price:</dt>
+            <dd class="col-sm-9">
+                @{
+                    var nights = (Model.Booking.CheckOutDate - Model.Booking.CheckInDate).Days;
+                    var total = nights * Model.Booking.Room.Price;
+                }
+                @total.ToString("C")
+            </dd>
+        </dl>
+
+        <div class="mt-4">
+            <a asp-page="/index" class="btn btn-primary">Back to Room List</a>
+            <a asp-page="/Bookings/Cancel" asp-route-id="@Model.Booking.Id" class="btn btn-danger ms-2">
+                Cancel Booking
+            </a>
+        </div>
+    </div>
+</div>
+
+
+ 

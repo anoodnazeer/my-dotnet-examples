@@ -1,0 +1,45 @@
+﻿@page
+@model HotelBookingSystem.Pages.Hotel.indexModel
+@{
+
+    ViewData["Title"] = "Available Rooms";
+
+
+<div class="container my-5">
+    <h1 class="mb-4">@ViewData["Title"]</h1>
+
+    @if (!Model.AvailableRooms.Any())
+    {
+        <div class="alert alert-info">No rooms are currently available.</div>
+    }
+    else
+    {
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+            @foreach (var room in Model.AvailableRooms)
+            {
+                <div class="col">
+                    <div class="card h-100 border shadow-sm">
+                        <div class="card-body">
+                            <!-- Display Room Number and Type -->
+                            <h5 class="card-title">
+                                Room @room.RoomNumber
+                                <span class="badge bg-secondary ms-2">@room.RoomType</span>
+                            </h5>
+
+                            <!-- Pricing Information -->
+                            <p class="card-text">
+                                <strong>Price:</strong> @room.Price.ToString()
+                            </p>
+                        </div>
+                        <div class="card-footer bg-transparent border-top-0 text-end">
+                            <a asp-page="/Hotel/Book" asp-route-roomId="@room.Id" class="btn btn-primary">
+                                Book Now
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    }
+</div>
+}

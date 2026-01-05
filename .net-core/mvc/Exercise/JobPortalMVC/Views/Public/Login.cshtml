@@ -1,0 +1,77 @@
+﻿ @model JobPortalMVC.Models.User
+@{
+}
+<style>
+    body {
+        height: 100vh;
+        background: linear-gradient(to right, #79b7ff 50%, white 50%);
+        margin: 0;
+    }
+
+
+
+    .leftContainer {
+        border-top-left-radius: 50px;
+        border-bottom-left-radius: 50px;
+    }
+
+</style>
+
+
+
+<div class="container d-flex justify-content-center align-items-center vh-100">
+    <div class="row login-container w-75">
+
+
+        <div class="col-md-6 leftContainer bg-white p-4 d-flex flex-column align-items-center">
+            <div class="logo mb-3">
+                <img src="/publicassets/images/Logo.png" class="img-fluid">
+            </div>
+            <h3>Welcome Back</h3>
+
+
+            <a href="#" class="mb-3 shadow-sm p-2 text-decoration-none text-black">
+                <img src="~/publicassets/images/Google symbol.png" alt="Google" width="20px">
+                Log in with Google
+            </a>
+
+            <h6 class="text-secondary mt-2">OR LOGIN WITH E-MAIL</h6>
+
+            <form method="post" class="w-100">
+                <div asp-validation-summary="All" class="text-danger"></div>
+
+                <input asp-for="Email" type="email" class="form-control mb-2" placeholder="Your Email" required>
+                <span asp-validation-for="Email" class="text-danger"></span>
+
+                <input asp-for="Password" type="password" class="form-control mb-2" placeholder="Your Password">
+                <span asp-validation-for="Password" class="text-danger"></span>
+
+                <div class="d-flex align-items-center mb-3">
+                    <input type="checkbox" class="me-2">
+                    <p class="mb-0">Keep me logged in</p>
+                </div>
+
+                <button type="submit" class="btn btn-primary w-100">Login</button>
+
+                <div class="text-center mt-3">
+                    <p>Don't have an account yet? <a href="public/Registration" class="text-white fw-bold">Sign up</a></p>
+                </div>
+
+                <div class="text-center text-white">
+                    <p>
+                        @if (TempData["msg"] != null)
+                        {
+                            @TempData["msg"]
+                        }
+                    </p>
+                </div>
+            </form>
+        </div>
+
+
+        <div class="col-md-6">
+            <img src="/publicassets/images/LoginPageImg.png" class="img-fluid h-100 w-100">
+        </div>
+
+    </div>
+</div>

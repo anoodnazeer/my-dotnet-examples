@@ -1,0 +1,83 @@
+﻿html, body {
+    height: 100%;
+}
+body {
+    background-image: url(../images/loginBackground.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.wrapperDiv {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.leftDiv {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 100%;
+    box-shadow: 1px 1px 4px 0px #303030de;
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 10%;
+    background-color: white;
+    padding: 30px;
+}
+
+.loginform {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.googleDiv {
+    padding: 10px;
+    width: 100%;
+    height: 40px;
+    box-shadow: 1px 2px 3px 1px #403f3fb5;
+}
+
+.btnlogin {
+    width: 100%;
+}
+
+.loginImg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.containerDiv {
+    display: flex;
+    flex-direction: row;
+    /* align-content: center; */
+    justify-content: center;
+}
+.rightDiv {
+    background-position: center;
+    background-image: url(/publicassets/images/loginpageimg.png);
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 100%;
+    box-shadow: 1px 1px 4px 0px #303030de;
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 10%;
+}
+.errors{
+    color:red;
+
+}

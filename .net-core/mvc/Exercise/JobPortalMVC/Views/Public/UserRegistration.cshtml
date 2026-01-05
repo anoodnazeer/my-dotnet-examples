@@ -1,0 +1,91 @@
+﻿@model JobPortalMVC.Dto.UserDto
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+
+<div class="container-fluid vh-100">
+    <div class="row h-100">
+
+        <!-- Left Image Section -->
+        <div class="col-md-6 d-none d-md-block p-0">
+
+            <div class="h-100 w-100" style="background: url('/Images/Dashboard/jobseeker.jpg') center/cover no-repeat;"></div>
+
+        </div>
+
+        <!-- Right Form Section -->
+        <div class="col-md-6 d-flex align-items-center justify-content-center bg-light">
+            <div class="w-75 p-4 rounded" style="background-color: white;">
+                <h2 class="mb-4 text-center">Registration</h2>
+                <form asp-action="UserRegistration" method="post">
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <label class="form-label"><strong>First Name</strong></label>
+                            <input asp-for="FirstName" class="form-control" placeholder="Enter First Name" />
+                            <span asp-validation-for="FirstName" class="text-danger"></span>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label class="form-label"><strong>Last Name</strong></label>
+                            <input asp-for="LastName" class="form-control" placeholder="Enter Last Name" />
+                            <span asp-validation-for="LastName" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <label class="form-label"><strong>Email</strong></label>
+                            <input asp-for="Email" class="form-control" placeholder="Enter Email" type="email" />
+                            <span asp-validation-for="Email" class="text-danger"></span>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label class="form-label"><strong>Phone Number</strong></label>
+                            <input asp-for="PhoneNumber" class="form-control" placeholder="Enter Phone Number" type="text" />
+                            <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <label class="form-label"><strong>Password</strong></label>
+                            <input asp-for="Password" class="form-control" placeholder="Password" type="password" />
+                            <span asp-validation-for="Password" class="text-danger"></span>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label class="form-label"><strong>Confirm Password</strong></label>
+                            <input asp-for="Password" class="form-control" placeholder="Confirm Password" type="password" />
+                            <span asp-validation-for="Password" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label"><strong>Gender</strong></label><br />
+                        <div class="form-check form-check-inline">
+                            <input asp-for="Gender" class="form-check-input" type="radio" value="Male" /> <label class="form-check-label">Male</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input asp-for="Gender" class="form-check-input" type="radio" value="Female" /> <label class="form-check-label">Female</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input asp-for="Gender" class="form-check-input" type="radio" value="Other" /> <label class="form-check-label">Other</label>
+                        </div>
+                        <span asp-validation-for="Gender" class="text-danger"></span>
+                    </div>
+
+                    <div class="d-grid">
+                        <button type="submit" class="btn btn-primary">Register</button> 
+                    </div>
+
+                    <p class="text-center mt-3">
+                        Already have an account?
+                        <a asp-action="Login" asp-controller="Public">Sign in</a>
+                    </p>
+                </form>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
+

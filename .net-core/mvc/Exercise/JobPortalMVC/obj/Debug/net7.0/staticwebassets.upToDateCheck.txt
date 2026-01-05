@@ -1,0 +1,170 @@
+wwwroot\css\site.css
+wwwroot\favicon.ico
+wwwroot\Images\Dashboard\add-group (1) 1 (1).png
+wwwroot\Images\Dashboard\application (1) 1.png
+wwwroot\Images\Dashboard\cheerful-curly-business-girl-wearing-glasses 1.png
+wwwroot\Images\Dashboard\dashboard 1 (1).png
+wwwroot\Images\Dashboard\Group 33988.png
+wwwroot\Images\Dashboard\Group 33999.png
+wwwroot\Images\Dashboard\icon (1).png
+wwwroot\Images\Dashboard\icon filter.png
+wwwroot\Images\Dashboard\icon.png
+wwwroot\Images\Dashboard\jobseeker.jpg
+wwwroot\Images\Dashboard\message 1.png
+wwwroot\Images\Dashboard\notification-bing.png
+wwwroot\Images\Dashboard\question (1) 1.png
+wwwroot\Images\Dashboard\search copy 2 (1).png
+wwwroot\Images\Dashboard\settings 1.png
+wwwroot\Images\Dashboard\smiling-hr-employer-handshaking-successful-job-applicant-hiring-greeting 1.png
+wwwroot\Images\Dashboard\suitcase 2.png
+wwwroot\js\site.js
+wwwroot\lib\bootstrap\dist\css\bootstrap.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
+wwwroot\lib\bootstrap\LICENSE
+wwwroot\lib\jquery\dist\jquery.js
+wwwroot\lib\jquery\dist\jquery.min.js
+wwwroot\lib\jquery\dist\jquery.min.map
+wwwroot\lib\jquery\LICENSE.txt
+wwwroot\lib\jquery-validation\dist\additional-methods.js
+wwwroot\lib\jquery-validation\dist\additional-methods.min.js
+wwwroot\lib\jquery-validation\dist\jquery.validate.js
+wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
+wwwroot\lib\jquery-validation\LICENSE.md
+wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
+wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
+wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
+wwwroot\PublicAssets\Company\images\add-group (1) 1 (1).png
+wwwroot\PublicAssets\Company\images\application (1) 1.png
+wwwroot\PublicAssets\Company\images\cheerful-curly-business-girl-wearing-glasses 1.png
+wwwroot\PublicAssets\Company\images\dashboard 1 (1).png
+wwwroot\PublicAssets\Company\images\Group 33999.png
+wwwroot\PublicAssets\Company\images\icon (1).png
+wwwroot\PublicAssets\Company\images\icon filter.png
+wwwroot\PublicAssets\Company\images\icon.png
+wwwroot\PublicAssets\Company\images\message 1.png
+wwwroot\PublicAssets\Company\images\notification-bing.png
+wwwroot\PublicAssets\Company\images\question (1) 1.png
+wwwroot\PublicAssets\Company\images\search copy 2 (1).png
+wwwroot\PublicAssets\Company\images\settings 1.png
+wwwroot\PublicAssets\Company\images\suitcase 2.png
+wwwroot\PublicAssets\css\home.css
+wwwroot\PublicAssets\css\landingStyle.css
+wwwroot\PublicAssets\css\loginStyle.css
+wwwroot\PublicAssets\images\add-group.png
+wwwroot\PublicAssets\images\Company Logo (2).png
+wwwroot\PublicAssets\images\Company Logo (3).png
+wwwroot\PublicAssets\images\Company Logo (4).png
+wwwroot\PublicAssets\images\Company Logo (5).png
+wwwroot\PublicAssets\images\Company Logo (6).png
+wwwroot\PublicAssets\images\Company Logo.png
+wwwroot\PublicAssets\images\Decoration.png
+wwwroot\PublicAssets\images\facebook.png
+wwwroot\PublicAssets\images\Google symbol.png
+wwwroot\PublicAssets\images\gray-user.png
+wwwroot\PublicAssets\images\Group 1126.png
+wwwroot\PublicAssets\images\Group 239625.png
+wwwroot\PublicAssets\images\Group 5689.png
+wwwroot\PublicAssets\images\Headline.png
+wwwroot\PublicAssets\images\instagram.png
+wwwroot\PublicAssets\images\linkedin.png
+wwwroot\PublicAssets\images\Login with google shape.png
+wwwroot\PublicAssets\images\loginBackground.PNG
+wwwroot\PublicAssets\images\LoginPageImg.png
+wwwroot\PublicAssets\images\Logo.png
+wwwroot\PublicAssets\images\main-img.png
+wwwroot\PublicAssets\images\Register Img.png
+wwwroot\PublicAssets\images\twitter.png
+wwwroot\PublicAssets\images\youtube.png
+wwwroot\PublicAssets\JobProvider\images\add-group (1) 1 (2).png
+wwwroot\PublicAssets\JobProvider\images\application (1) 1 (2).png
+wwwroot\PublicAssets\JobProvider\images\arrow-down.png
+wwwroot\PublicAssets\JobProvider\images\calendar (2) 2.png
+wwwroot\PublicAssets\JobProvider\images\calendar (4) 1.png
+wwwroot\PublicAssets\JobProvider\images\cheerful-curly-business-girl-wearing-glasses 2.png
+wwwroot\PublicAssets\JobProvider\images\clock 1.png
+wwwroot\PublicAssets\JobProvider\images\dashboard 1 (2).png
+wwwroot\PublicAssets\JobProvider\images\Decoration (3).png
+wwwroot\PublicAssets\JobProvider\images\Group 14.png
+wwwroot\PublicAssets\JobProvider\images\Group 239625 (1).png
+wwwroot\PublicAssets\JobProvider\images\Group 5689.png
+wwwroot\PublicAssets\JobProvider\images\home-button 4.png
+wwwroot\PublicAssets\JobProvider\images\location 1.png
+wwwroot\PublicAssets\JobProvider\images\message 1 (2).png
+wwwroot\PublicAssets\JobProvider\images\question (1) 1 (2).png
+wwwroot\PublicAssets\JobProvider\images\settings 1 (1).png
+wwwroot\PublicAssets\JobProvider\images\suitcase 2 (1).png
+wwwroot\PublicAssets\JobProvider\InterviewShedule\images\add-group (1) 1 (2).png
+wwwroot\PublicAssets\JobProvider\InterviewShedule\images\application (1) 1 (2).png
+wwwroot\PublicAssets\JobProvider\InterviewShedule\images\arrow-down.png
+wwwroot\PublicAssets\JobProvider\InterviewShedule\images\calendar (2) 2.png
+wwwroot\PublicAssets\JobProvider\InterviewShedule\images\calendar (4) 1.png
+wwwroot\PublicAssets\JobProvider\InterviewShedule\images\cheerful-curly-business-girl-wearing-glasses 2.png
+wwwroot\PublicAssets\JobProvider\InterviewShedule\images\clock 1.png
+wwwroot\PublicAssets\JobProvider\InterviewShedule\images\dashboard 1 (2).png
+wwwroot\PublicAssets\JobProvider\InterviewShedule\images\Decoration (3).png
+wwwroot\PublicAssets\JobProvider\InterviewShedule\images\Group 14.png
+wwwroot\PublicAssets\JobProvider\InterviewShedule\images\Group 239625 (1).png
+wwwroot\PublicAssets\JobProvider\InterviewShedule\images\Group 5689.png
+wwwroot\PublicAssets\JobProvider\InterviewShedule\images\home-button 4.png
+wwwroot\PublicAssets\JobProvider\InterviewShedule\images\location 1.png
+wwwroot\PublicAssets\JobProvider\InterviewShedule\images\message 1 (2).png
+wwwroot\PublicAssets\JobProvider\InterviewShedule\images\question (1) 1 (2).png
+wwwroot\PublicAssets\JobProvider\InterviewShedule\images\settings 1 (1).png
+wwwroot\PublicAssets\JobProvider\InterviewShedule\images\suitcase 2 (1).png
+wwwroot\PublicAssets\JobProvider\PostJob\images\add-group (1) 1 (2).png
+wwwroot\PublicAssets\JobProvider\PostJob\images\application (1) 1 (2).png
+wwwroot\PublicAssets\JobProvider\PostJob\images\arrow-down.png
+wwwroot\PublicAssets\JobProvider\PostJob\images\calendar (2) 2.png
+wwwroot\PublicAssets\JobProvider\PostJob\images\cheerful-curly-business-girl-wearing-glasses 2.png
+wwwroot\PublicAssets\JobProvider\PostJob\images\dashboard 1 (2).png
+wwwroot\PublicAssets\JobProvider\PostJob\images\Decoration (3).png
+wwwroot\PublicAssets\JobProvider\PostJob\images\Group 14.png
+wwwroot\PublicAssets\JobProvider\PostJob\images\Group 239625 (1).png
+wwwroot\PublicAssets\JobProvider\PostJob\images\Group 5689.png
+wwwroot\PublicAssets\JobProvider\PostJob\images\home-button 4.png
+wwwroot\PublicAssets\JobProvider\PostJob\images\message 1 (2).png
+wwwroot\PublicAssets\JobProvider\PostJob\images\question (1) 1 (2).png
+wwwroot\PublicAssets\JobProvider\PostJob\images\settings 1 (1).png
+wwwroot\PublicAssets\JobProvider\PostJob\images\suitcase 2 (1).png

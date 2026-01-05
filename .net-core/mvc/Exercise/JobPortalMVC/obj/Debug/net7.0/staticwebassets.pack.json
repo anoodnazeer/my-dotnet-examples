@@ -1,0 +1,709 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\JobPortalMVC.bundle.scp.css",
+      "PackagePath": "staticwebassets\\JobPortalMVC.nolc5fdprj.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\Images\\Dashboard\\Group 33988.png",
+      "PackagePath": "staticwebassets\\Images\\Dashboard\\Group 33988.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\Images\\Dashboard\\Group 33999.png",
+      "PackagePath": "staticwebassets\\Images\\Dashboard\\Group 33999.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\Images\\Dashboard\\add-group (1) 1 (1).png",
+      "PackagePath": "staticwebassets\\Images\\Dashboard\\add-group (1) 1 (1).png"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\Images\\Dashboard\\application (1) 1.png",
+      "PackagePath": "staticwebassets\\Images\\Dashboard\\application (1) 1.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\Images\\Dashboard\\cheerful-curly-business-girl-wearing-glasses 1.png",
+      "PackagePath": "staticwebassets\\Images\\Dashboard\\cheerful-curly-business-girl-wearing-glasses 1.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\Images\\Dashboard\\dashboard 1 (1).png",
+      "PackagePath": "staticwebassets\\Images\\Dashboard\\dashboard 1 (1).png"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\Images\\Dashboard\\icon (1).png",
+      "PackagePath": "staticwebassets\\Images\\Dashboard\\icon (1).png"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\Images\\Dashboard\\icon filter.png",
+      "PackagePath": "staticwebassets\\Images\\Dashboard\\icon filter.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\Images\\Dashboard\\icon.png",
+      "PackagePath": "staticwebassets\\Images\\Dashboard\\icon.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\Images\\Dashboard\\jobseeker.jpg",
+      "PackagePath": "staticwebassets\\Images\\Dashboard\\jobseeker.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\Images\\Dashboard\\message 1.png",
+      "PackagePath": "staticwebassets\\Images\\Dashboard\\message 1.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\Images\\Dashboard\\notification-bing.png",
+      "PackagePath": "staticwebassets\\Images\\Dashboard\\notification-bing.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\Images\\Dashboard\\question (1) 1.png",
+      "PackagePath": "staticwebassets\\Images\\Dashboard\\question (1) 1.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\Images\\Dashboard\\search copy 2 (1).png",
+      "PackagePath": "staticwebassets\\Images\\Dashboard\\search copy 2 (1).png"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\Images\\Dashboard\\settings 1.png",
+      "PackagePath": "staticwebassets\\Images\\Dashboard\\settings 1.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\Images\\Dashboard\\smiling-hr-employer-handshaking-successful-job-applicant-hiring-greeting 1.png",
+      "PackagePath": "staticwebassets\\Images\\Dashboard\\smiling-hr-employer-handshaking-successful-job-applicant-hiring-greeting 1.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\Images\\Dashboard\\suitcase 2.png",
+      "PackagePath": "staticwebassets\\Images\\Dashboard\\suitcase 2.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\PublicAssets\\Company\\images\\Group 33999.png",
+      "PackagePath": "staticwebassets\\PublicAssets\\Company\\images\\Group 33999.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\PublicAssets\\Company\\images\\add-group (1) 1 (1).png",
+      "PackagePath": "staticwebassets\\PublicAssets\\Company\\images\\add-group (1) 1 (1).png"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\PublicAssets\\Company\\images\\application (1) 1.png",
+      "PackagePath": "staticwebassets\\PublicAssets\\Company\\images\\application (1) 1.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\PublicAssets\\Company\\images\\cheerful-curly-business-girl-wearing-glasses 1.png",
+      "PackagePath": "staticwebassets\\PublicAssets\\Company\\images\\cheerful-curly-business-girl-wearing-glasses 1.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\PublicAssets\\Company\\images\\dashboard 1 (1).png",
+      "PackagePath": "staticwebassets\\PublicAssets\\Company\\images\\dashboard 1 (1).png"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\PublicAssets\\Company\\images\\icon (1).png",
+      "PackagePath": "staticwebassets\\PublicAssets\\Company\\images\\icon (1).png"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\PublicAssets\\Company\\images\\icon filter.png",
+      "PackagePath": "staticwebassets\\PublicAssets\\Company\\images\\icon filter.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\PublicAssets\\Company\\images\\icon.png",
+      "PackagePath": "staticwebassets\\PublicAssets\\Company\\images\\icon.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\PublicAssets\\Company\\images\\message 1.png",
+      "PackagePath": "staticwebassets\\PublicAssets\\Company\\images\\message 1.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\PublicAssets\\Company\\images\\notification-bing.png",
+      "PackagePath": "staticwebassets\\PublicAssets\\Company\\images\\notification-bing.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\PublicAssets\\Company\\images\\question (1) 1.png",
+      "PackagePath": "staticwebassets\\PublicAssets\\Company\\images\\question (1) 1.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\PublicAssets\\Company\\images\\search copy 2 (1).png",
+      "PackagePath": "staticwebassets\\PublicAssets\\Company\\images\\search copy 2 (1).png"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\PublicAssets\\Company\\images\\settings 1.png",
+      "PackagePath": "staticwebassets\\PublicAssets\\Company\\images\\settings 1.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\PublicAssets\\Company\\images\\suitcase 2.png",
+      "PackagePath": "staticwebassets\\PublicAssets\\Company\\images\\suitcase 2.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\PublicAssets\\JobProvider\\InterviewShedule\\images\\Decoration (3).png",
+      "PackagePath": "staticwebassets\\PublicAssets\\JobProvider\\InterviewShedule\\images\\Decoration (3).png"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\PublicAssets\\JobProvider\\InterviewShedule\\images\\Group 14.png",
+      "PackagePath": "staticwebassets\\PublicAssets\\JobProvider\\InterviewShedule\\images\\Group 14.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\PublicAssets\\JobProvider\\InterviewShedule\\images\\Group 239625 (1).png",
+      "PackagePath": "staticwebassets\\PublicAssets\\JobProvider\\InterviewShedule\\images\\Group 239625 (1).png"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\PublicAssets\\JobProvider\\InterviewShedule\\images\\Group 5689.png",
+      "PackagePath": "staticwebassets\\PublicAssets\\JobProvider\\InterviewShedule\\images\\Group 5689.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\PublicAssets\\JobProvider\\InterviewShedule\\images\\add-group (1) 1 (2).png",
+      "PackagePath": "staticwebassets\\PublicAssets\\JobProvider\\InterviewShedule\\images\\add-group (1) 1 (2).png"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\PublicAssets\\JobProvider\\InterviewShedule\\images\\application (1) 1 (2).png",
+      "PackagePath": "staticwebassets\\PublicAssets\\JobProvider\\InterviewShedule\\images\\application (1) 1 (2).png"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\PublicAssets\\JobProvider\\InterviewShedule\\images\\arrow-down.png",
+      "PackagePath": "staticwebassets\\PublicAssets\\JobProvider\\InterviewShedule\\images\\arrow-down.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\PublicAssets\\JobProvider\\InterviewShedule\\images\\calendar (2) 2.png",
+      "PackagePath": "staticwebassets\\PublicAssets\\JobProvider\\InterviewShedule\\images\\calendar (2) 2.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\PublicAssets\\JobProvider\\InterviewShedule\\images\\calendar (4) 1.png",
+      "PackagePath": "staticwebassets\\PublicAssets\\JobProvider\\InterviewShedule\\images\\calendar (4) 1.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\PublicAssets\\JobProvider\\InterviewShedule\\images\\cheerful-curly-business-girl-wearing-glasses 2.png",
+      "PackagePath": "staticwebassets\\PublicAssets\\JobProvider\\InterviewShedule\\images\\cheerful-curly-business-girl-wearing-glasses 2.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\PublicAssets\\JobProvider\\InterviewShedule\\images\\clock 1.png",
+      "PackagePath": "staticwebassets\\PublicAssets\\JobProvider\\InterviewShedule\\images\\clock 1.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\PublicAssets\\JobProvider\\InterviewShedule\\images\\dashboard 1 (2).png",
+      "PackagePath": "staticwebassets\\PublicAssets\\JobProvider\\InterviewShedule\\images\\dashboard 1 (2).png"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\PublicAssets\\JobProvider\\InterviewShedule\\images\\home-button 4.png",
+      "PackagePath": "staticwebassets\\PublicAssets\\JobProvider\\InterviewShedule\\images\\home-button 4.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\PublicAssets\\JobProvider\\InterviewShedule\\images\\location 1.png",
+      "PackagePath": "staticwebassets\\PublicAssets\\JobProvider\\InterviewShedule\\images\\location 1.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\PublicAssets\\JobProvider\\InterviewShedule\\images\\message 1 (2).png",
+      "PackagePath": "staticwebassets\\PublicAssets\\JobProvider\\InterviewShedule\\images\\message 1 (2).png"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\PublicAssets\\JobProvider\\InterviewShedule\\images\\question (1) 1 (2).png",
+      "PackagePath": "staticwebassets\\PublicAssets\\JobProvider\\InterviewShedule\\images\\question (1) 1 (2).png"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\PublicAssets\\JobProvider\\InterviewShedule\\images\\settings 1 (1).png",
+      "PackagePath": "staticwebassets\\PublicAssets\\JobProvider\\InterviewShedule\\images\\settings 1 (1).png"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\PublicAssets\\JobProvider\\InterviewShedule\\images\\suitcase 2 (1).png",
+      "PackagePath": "staticwebassets\\PublicAssets\\JobProvider\\InterviewShedule\\images\\suitcase 2 (1).png"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\PublicAssets\\JobProvider\\PostJob\\images\\Decoration (3).png",
+      "PackagePath": "staticwebassets\\PublicAssets\\JobProvider\\PostJob\\images\\Decoration (3).png"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\PublicAssets\\JobProvider\\PostJob\\images\\Group 14.png",
+      "PackagePath": "staticwebassets\\PublicAssets\\JobProvider\\PostJob\\images\\Group 14.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\PublicAssets\\JobProvider\\PostJob\\images\\Group 239625 (1).png",
+      "PackagePath": "staticwebassets\\PublicAssets\\JobProvider\\PostJob\\images\\Group 239625 (1).png"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\PublicAssets\\JobProvider\\PostJob\\images\\Group 5689.png",
+      "PackagePath": "staticwebassets\\PublicAssets\\JobProvider\\PostJob\\images\\Group 5689.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\PublicAssets\\JobProvider\\PostJob\\images\\add-group (1) 1 (2).png",
+      "PackagePath": "staticwebassets\\PublicAssets\\JobProvider\\PostJob\\images\\add-group (1) 1 (2).png"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\PublicAssets\\JobProvider\\PostJob\\images\\application (1) 1 (2).png",
+      "PackagePath": "staticwebassets\\PublicAssets\\JobProvider\\PostJob\\images\\application (1) 1 (2).png"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\PublicAssets\\JobProvider\\PostJob\\images\\arrow-down.png",
+      "PackagePath": "staticwebassets\\PublicAssets\\JobProvider\\PostJob\\images\\arrow-down.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\PublicAssets\\JobProvider\\PostJob\\images\\calendar (2) 2.png",
+      "PackagePath": "staticwebassets\\PublicAssets\\JobProvider\\PostJob\\images\\calendar (2) 2.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\PublicAssets\\JobProvider\\PostJob\\images\\cheerful-curly-business-girl-wearing-glasses 2.png",
+      "PackagePath": "staticwebassets\\PublicAssets\\JobProvider\\PostJob\\images\\cheerful-curly-business-girl-wearing-glasses 2.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\PublicAssets\\JobProvider\\PostJob\\images\\dashboard 1 (2).png",
+      "PackagePath": "staticwebassets\\PublicAssets\\JobProvider\\PostJob\\images\\dashboard 1 (2).png"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\PublicAssets\\JobProvider\\PostJob\\images\\home-button 4.png",
+      "PackagePath": "staticwebassets\\PublicAssets\\JobProvider\\PostJob\\images\\home-button 4.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\PublicAssets\\JobProvider\\PostJob\\images\\message 1 (2).png",
+      "PackagePath": "staticwebassets\\PublicAssets\\JobProvider\\PostJob\\images\\message 1 (2).png"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\PublicAssets\\JobProvider\\PostJob\\images\\question (1) 1 (2).png",
+      "PackagePath": "staticwebassets\\PublicAssets\\JobProvider\\PostJob\\images\\question (1) 1 (2).png"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\PublicAssets\\JobProvider\\PostJob\\images\\settings 1 (1).png",
+      "PackagePath": "staticwebassets\\PublicAssets\\JobProvider\\PostJob\\images\\settings 1 (1).png"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\PublicAssets\\JobProvider\\PostJob\\images\\suitcase 2 (1).png",
+      "PackagePath": "staticwebassets\\PublicAssets\\JobProvider\\PostJob\\images\\suitcase 2 (1).png"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\PublicAssets\\JobProvider\\images\\Decoration (3).png",
+      "PackagePath": "staticwebassets\\PublicAssets\\JobProvider\\images\\Decoration (3).png"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\PublicAssets\\JobProvider\\images\\Group 14.png",
+      "PackagePath": "staticwebassets\\PublicAssets\\JobProvider\\images\\Group 14.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\PublicAssets\\JobProvider\\images\\Group 239625 (1).png",
+      "PackagePath": "staticwebassets\\PublicAssets\\JobProvider\\images\\Group 239625 (1).png"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\PublicAssets\\JobProvider\\images\\Group 5689.png",
+      "PackagePath": "staticwebassets\\PublicAssets\\JobProvider\\images\\Group 5689.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\PublicAssets\\JobProvider\\images\\add-group (1) 1 (2).png",
+      "PackagePath": "staticwebassets\\PublicAssets\\JobProvider\\images\\add-group (1) 1 (2).png"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\PublicAssets\\JobProvider\\images\\application (1) 1 (2).png",
+      "PackagePath": "staticwebassets\\PublicAssets\\JobProvider\\images\\application (1) 1 (2).png"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\PublicAssets\\JobProvider\\images\\arrow-down.png",
+      "PackagePath": "staticwebassets\\PublicAssets\\JobProvider\\images\\arrow-down.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\PublicAssets\\JobProvider\\images\\calendar (2) 2.png",
+      "PackagePath": "staticwebassets\\PublicAssets\\JobProvider\\images\\calendar (2) 2.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\PublicAssets\\JobProvider\\images\\calendar (4) 1.png",
+      "PackagePath": "staticwebassets\\PublicAssets\\JobProvider\\images\\calendar (4) 1.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\PublicAssets\\JobProvider\\images\\cheerful-curly-business-girl-wearing-glasses 2.png",
+      "PackagePath": "staticwebassets\\PublicAssets\\JobProvider\\images\\cheerful-curly-business-girl-wearing-glasses 2.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\PublicAssets\\JobProvider\\images\\clock 1.png",
+      "PackagePath": "staticwebassets\\PublicAssets\\JobProvider\\images\\clock 1.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\PublicAssets\\JobProvider\\images\\dashboard 1 (2).png",
+      "PackagePath": "staticwebassets\\PublicAssets\\JobProvider\\images\\dashboard 1 (2).png"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\PublicAssets\\JobProvider\\images\\home-button 4.png",
+      "PackagePath": "staticwebassets\\PublicAssets\\JobProvider\\images\\home-button 4.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\PublicAssets\\JobProvider\\images\\location 1.png",
+      "PackagePath": "staticwebassets\\PublicAssets\\JobProvider\\images\\location 1.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\PublicAssets\\JobProvider\\images\\message 1 (2).png",
+      "PackagePath": "staticwebassets\\PublicAssets\\JobProvider\\images\\message 1 (2).png"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\PublicAssets\\JobProvider\\images\\question (1) 1 (2).png",
+      "PackagePath": "staticwebassets\\PublicAssets\\JobProvider\\images\\question (1) 1 (2).png"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\PublicAssets\\JobProvider\\images\\settings 1 (1).png",
+      "PackagePath": "staticwebassets\\PublicAssets\\JobProvider\\images\\settings 1 (1).png"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\PublicAssets\\JobProvider\\images\\suitcase 2 (1).png",
+      "PackagePath": "staticwebassets\\PublicAssets\\JobProvider\\images\\suitcase 2 (1).png"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\PublicAssets\\css\\home.css",
+      "PackagePath": "staticwebassets\\PublicAssets\\css\\home.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\PublicAssets\\css\\landingStyle.css",
+      "PackagePath": "staticwebassets\\PublicAssets\\css\\landingStyle.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\PublicAssets\\css\\loginStyle.css",
+      "PackagePath": "staticwebassets\\PublicAssets\\css\\loginStyle.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\PublicAssets\\images\\Company Logo (2).png",
+      "PackagePath": "staticwebassets\\PublicAssets\\images\\Company Logo (2).png"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\PublicAssets\\images\\Company Logo (3).png",
+      "PackagePath": "staticwebassets\\PublicAssets\\images\\Company Logo (3).png"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\PublicAssets\\images\\Company Logo (4).png",
+      "PackagePath": "staticwebassets\\PublicAssets\\images\\Company Logo (4).png"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\PublicAssets\\images\\Company Logo (5).png",
+      "PackagePath": "staticwebassets\\PublicAssets\\images\\Company Logo (5).png"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\PublicAssets\\images\\Company Logo (6).png",
+      "PackagePath": "staticwebassets\\PublicAssets\\images\\Company Logo (6).png"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\PublicAssets\\images\\Company Logo.png",
+      "PackagePath": "staticwebassets\\PublicAssets\\images\\Company Logo.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\PublicAssets\\images\\Decoration.png",
+      "PackagePath": "staticwebassets\\PublicAssets\\images\\Decoration.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\PublicAssets\\images\\Google symbol.png",
+      "PackagePath": "staticwebassets\\PublicAssets\\images\\Google symbol.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\PublicAssets\\images\\Group 1126.png",
+      "PackagePath": "staticwebassets\\PublicAssets\\images\\Group 1126.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\PublicAssets\\images\\Group 239625.png",
+      "PackagePath": "staticwebassets\\PublicAssets\\images\\Group 239625.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\PublicAssets\\images\\Group 5689.png",
+      "PackagePath": "staticwebassets\\PublicAssets\\images\\Group 5689.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\PublicAssets\\images\\Headline.png",
+      "PackagePath": "staticwebassets\\PublicAssets\\images\\Headline.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\PublicAssets\\images\\Login with google shape.png",
+      "PackagePath": "staticwebassets\\PublicAssets\\images\\Login with google shape.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\PublicAssets\\images\\LoginPageImg.png",
+      "PackagePath": "staticwebassets\\PublicAssets\\images\\LoginPageImg.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\PublicAssets\\images\\Logo.png",
+      "PackagePath": "staticwebassets\\PublicAssets\\images\\Logo.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\PublicAssets\\images\\Register Img.png",
+      "PackagePath": "staticwebassets\\PublicAssets\\images\\Register Img.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\PublicAssets\\images\\add-group.png",
+      "PackagePath": "staticwebassets\\PublicAssets\\images\\add-group.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\PublicAssets\\images\\facebook.png",
+      "PackagePath": "staticwebassets\\PublicAssets\\images\\facebook.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\PublicAssets\\images\\gray-user.png",
+      "PackagePath": "staticwebassets\\PublicAssets\\images\\gray-user.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\PublicAssets\\images\\instagram.png",
+      "PackagePath": "staticwebassets\\PublicAssets\\images\\instagram.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\PublicAssets\\images\\linkedin.png",
+      "PackagePath": "staticwebassets\\PublicAssets\\images\\linkedin.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\PublicAssets\\images\\loginBackground.PNG",
+      "PackagePath": "staticwebassets\\PublicAssets\\images\\loginBackground.PNG"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\PublicAssets\\images\\main-img.png",
+      "PackagePath": "staticwebassets\\PublicAssets\\images\\main-img.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\PublicAssets\\images\\twitter.png",
+      "PackagePath": "staticwebassets\\PublicAssets\\images\\twitter.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\PublicAssets\\images\\youtube.png",
+      "PackagePath": "staticwebassets\\PublicAssets\\images\\youtube.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Desktop\\MVC\\Exercise\\JobPortalMVC\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.JobPortalMVC.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.JobPortalMVC.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.JobPortalMVC.props",
+      "PackagePath": "build\\JobPortalMVC.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.JobPortalMVC.props",
+      "PackagePath": "buildMultiTargeting\\JobPortalMVC.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.JobPortalMVC.props",
+      "PackagePath": "buildTransitive\\JobPortalMVC.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

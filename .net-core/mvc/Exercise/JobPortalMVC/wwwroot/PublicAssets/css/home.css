@@ -1,0 +1,268 @@
+﻿
+
+    .navbar li {
+        float: left;
+        list-style: none;
+    }
+
+    .navbar ul {
+        overflow: auto;
+    }
+
+    .navbar li a {
+        padding: 3px;
+        text-decoration: none;
+        color: #3487bf;
+        font-size: larger;
+    }
+
+    .navbar li .selected {
+        text-decoration: underline;
+        text-decoration-color: #3487bf;
+        text-decoration-thickness: 4px;
+    }
+
+    .navbar li:hover {
+        background-color: #3487bf;
+        color: white;
+    }
+
+        .navbar li:hover a {
+            color: white;
+        }
+
+        .navbar li:hover .selected {
+            text-decoration-color: #ffffff;
+        }
+
+.navItem {
+    height: 25px;
+    padding: 10px;
+}
+
+/* end of navbar style */
+
+
+.row {
+    display: flex;
+}
+
+
+
+/* Style For fullitem , marketing, design buttons  */
+
+.fulltime {
+    height: 25px;
+    padding-top: 3px;
+    padding-left: 12px;
+    max-width: 80px;
+    font-size: smaller;
+    font-style: unset;
+    color: #011604;
+    border: 1px solid #07300b;
+    border-color: #0a5808;
+    border-radius: 18px;
+    margin-left: 5px;
+}
+
+    .fulltime:hover {
+        color: #ffffff;
+        background-color: #0a5808;
+    }
+
+
+.marketing {
+    height: 25px;
+    margin-left: 5px;
+    padding-top: 3px;
+    padding-left: 8px;
+    padding-right: 8px;
+    max-width: fit-content;
+    background-color: rgb(255, 255, 255);
+    font-size: smaller;
+    font-style: unset;
+    color: rgb(203 163 17);
+    border: 1px solid;
+    border-color: #ecc900;
+    border-radius: 18px;
+}
+
+    .marketing:hover {
+        color: #ffffff;
+        background-color: #ecc900;
+    }
+
+.design {
+    margin-left: 5px;
+    height: 25px;
+    padding-top: 3px;
+    padding-left: 8px;
+    padding-right: 8px;
+    max-width: 80px;
+    background-color: rgb(255, 255, 255);
+    font-size: smaller;
+    font-style: unset;
+    color: rgb(10 98 141);
+    border: 1px solid;
+    border-color: #0095ec;
+    border-radius: 18px;
+}
+
+    .design:hover {
+        color: #ffffff;
+        background-color: #0095ec;
+    }
+
+.btn-apply {
+    height: 22px;
+    text-align: center;
+    padding-bottom: 5px;
+    width: 95px;
+    background-color: white;
+    font-size: larger;
+    font-style: unset;
+    border: 1px solid;
+    border-color: #117aa3;
+}
+
+    .btn-apply a {
+        text-decoration: none;
+        color: #2d9cddfc;
+    }
+
+    .btn-apply:hover {
+        color: white;
+        background-color: #2d9cddfc;
+    }
+
+        .btn-apply:hover a {
+            color: white;
+        }
+
+.end-row {
+    display: inline-grid;
+    row-gap: 20px;
+}
+
+/* Style For Pagination */
+
+.pagination {
+    display: inline-block;
+}
+
+    .pagination a {
+        color: black;
+        float: left;
+        padding: 8px 16px;
+        text-decoration: none;
+        transition: background-color .3s;
+    }
+
+        .pagination a.active {
+            background-color: #2d9cddfc;
+            color: white;
+        }
+
+        .pagination a:hover:not(.active) {
+            background-color: #ddd;
+        }
+
+.center {
+    text-align: center;
+}
+
+#tbl-all-jobs {
+    box-shadow: 0px 1px 6px 1px #81838bd1;
+    padding: 10px;
+}
+
+.scroll {
+    height: 500px;
+    overflow: scroll;
+}
+
+    .scroll::-webkit-scrollbar {
+        display: none;
+    }
+
+
+.header {
+    height: 151px;
+    /* width: 763px; */
+    background-image: url(../images/googleCover.jpg);
+    /* background-position: center; */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    background-repeat: round;
+}
+
+.proImg {
+    background-color: #ffffffcf;
+    height: 125px;
+    width: 125px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 61px;
+}
+
+.job-specs {
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.spec {
+    box-shadow: 0px 1px 13px 0px #00000059;
+    width: 200px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    border-radius: 7px;
+}
+
+.right {
+    box-shadow: -4px -2px 4px 1px #0000001c;
+}
+
+    .right:hover {
+        box-shadow: 0px 1px 13px 0px #00000059;
+    }
+.left {
+   /* width: 60%;*/
+    padding: 10px 20px 10px 20px;
+}
+
+.desc {
+    max-width: 500px;
+}
+
+.clr-code-text {
+    color: #3487bf
+}
+.footer1 {
+    background: #20a6fc;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+}
+.footer2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-evenly;
+}
+.hiremeFooter {
+    max-width: 300px;
+}

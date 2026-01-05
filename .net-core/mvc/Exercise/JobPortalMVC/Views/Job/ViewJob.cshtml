@@ -1,0 +1,15 @@
+﻿ @model JobPortalMVC.Models.Job
+
+@{
+    ViewData["Title"] = "Job Details";
+}
+
+<h2>@Model.Title</h2>
+<p><strong>Company:</strong> @Model.Company</p>
+<p><strong>Location:</strong> @Model.Location</p>
+<p><strong>Salary Range:</strong> @Model.SalaryRange</p>
+<p><strong>Description:</strong></p>
+<p>@Model.Description</p>
+<p><strong>Posted On:</strong> @Model.PostedDate.ToString("dd MMM yyyy")</p>
+
+<a asp-action="Index" class="btn btn-secondary">Back to Listings</a>

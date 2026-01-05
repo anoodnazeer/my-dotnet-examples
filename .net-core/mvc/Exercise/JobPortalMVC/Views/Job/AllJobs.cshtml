@@ -1,0 +1,49 @@
+﻿@model IEnumerable<Job>
+
+<div class="d-flex">
+    <!-- Sidebar -->
+    <div class="bg-primary min-vh-100 p-3" style="width: 220px;">
+        <h4 class="text-white mb-4">HireMe Now</h4>
+        <ul class="list-group list-unstyled">
+            <li class="list-group-item border-0 bg-primary text-white"><i class="bi bi-person"></i> My Profile</li>
+            <li class="list-group-item border-0 bg-primary text-white"><i class="bi bi-suitcase-lg-fill"></i> All Jobs</li>
+            <li class="list-group-item border-0 bg-primary text-white"><i class="bi bi-card-checklist"></i> My Applications</li>
+            <li class="list-group-item border-0 bg-primary text-white"><i class="bi bi-chat-fill"></i> Messages</li>
+            <li class="list-group-item border-0 bg-primary text-white"><i class="bi bi-gear-fill"></i> Settings</li>
+        </ul>
+    </div>
+
+    <!-- Job List: Vertical Cards -->
+    <div class="vstack gap-3">
+        @foreach (var job in Model)
+        {
+            <div class="card job-card text-dark p-3">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div>
+                        <h5 class="mb-1" style="color: darkblue;">@job.Title</h5>
+                        <small class="text-muted">@job.Company • @job.Location</small>
+                    </div>
+                    <span class="badge bg-secondary">@job.SalaryRange</span>
+                </div>
+                <p class="mt-2 mb-1">@job.Description</p>
+                <div class="d-flex justify-content-between align-items-center">
+                    <small class="text-muted">@job.PostedDate.ToString("dd MMM yyyy")</small>
+                    <a asp-controller="Job"
+                       asp-action="ViewJob"
+                       asp-route-jobId="@job.Id"
+                       class="btn btn-primary">
+                        View Job
+                    </a>
+                </div>
+            </div>
+        }
+    </div>
+
+
+<style>
+    .job-card {
+        border-left: 6px solid transparent;
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+</style>

@@ -1,0 +1,1869 @@
+[
+  {
+    "ContainingType": "Job_Portal.API.Admin.AdminController",
+    "Method": "AddIndustry",
+    "RelativePath": "api/Admin/AddIndustry",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Job_Portal.API.Admin.Request_Objects.IndustryObjectDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Job_Portal.API.Admin.AdminController",
+    "Method": "Create",
+    "RelativePath": "api/Admin/AddJobCategory",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Job_Portal.API.Admin.Request_Objects.CreateJobCategoryDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Job_Portal.API.Admin.AdminController",
+    "Method": "Login",
+    "RelativePath": "api/Admin/Admin/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "logdata",
+        "Type": "Job_Portal.API.Admin.Request_Objects.AdminLoginRequests",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Job_Portal.API.Admin.AdminController",
+    "Method": "ApproveJob",
+    "RelativePath": "api/Admin/ApproveJob/{id}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Job_Portal.API.Admin.AdminController",
+    "Method": "DeleteIndustry",
+    "RelativePath": "api/Admin/DeleteIndustry/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Job_Portal.API.Admin.AdminController",
+    "Method": "DeleteJobCategory",
+    "RelativePath": "api/Admin/DeleteJobCategory/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Job_Portal.API.Admin.AdminController",
+    "Method": "EditIndustry",
+    "RelativePath": "api/Admin/EditIndustry/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "Job_Portal.API.Admin.Request_Objects.IndustryObjectDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Job_Portal.API.Admin.AdminController",
+    "Method": "GetAllIndustries",
+    "RelativePath": "api/Admin/GetAllIndustries",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Job_Portal.API.Admin.AdminController",
+    "Method": "GetAll",
+    "RelativePath": "api/Admin/GetAllJobCategory",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Job_Portal.API.Admin.AdminController",
+    "Method": "GetAllLocations",
+    "RelativePath": "api/Admin/getAllLocations",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Job_Portal.API.Admin.AdminController",
+    "Method": "GetAllSkills",
+    "RelativePath": "api/Admin/getAllSkills",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Job_Portal.API.Admin.AdminController",
+    "Method": "GetIndustryById",
+    "RelativePath": "api/Admin/GetIndustryById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Job_Portal.API.Admin.AdminController",
+    "Method": "GetIndustryCount",
+    "RelativePath": "api/Admin/GetIndustryCount",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Job_Portal.API.Admin.AdminController",
+    "Method": "GetJobCategoryById",
+    "RelativePath": "api/Admin/GetJobCategoryById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Job_Portal.API.Admin.AdminController",
+    "Method": "GetLocationById",
+    "RelativePath": "api/Admin/getLocationById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Job_Portal.API.Admin.AdminController",
+    "Method": "GetSkillById",
+    "RelativePath": "api/Admin/getSkillById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Job_Portal.API.Admin.AdminController",
+    "Method": "AddLocation",
+    "RelativePath": "api/Admin/locationAdd",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "location",
+        "Type": "Job_Portal.API.Admin.Request_Objects.LocationRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Job_Portal.API.Admin.AdminController",
+    "Method": "PatchLocation",
+    "RelativePath": "api/Admin/locationPatch/{locationId}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "locationId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "location",
+        "Type": "Job_Portal.API.Admin.Request_Objects.LocationPatchRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Job_Portal.API.Admin.AdminController",
+    "Method": "RemoveLocation",
+    "RelativePath": "api/Admin/locationRemove/{locationId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "locationId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Job_Portal.API.Admin.AdminController",
+    "Method": "UpdateLocation",
+    "RelativePath": "api/Admin/locationUpdate/{locationId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "locationId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "location",
+        "Type": "Job_Portal.API.Admin.Request_Objects.LocationRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Job_Portal.API.Admin.AdminController",
+    "Method": "Logout",
+    "RelativePath": "api/Admin/logout",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Job_Portal.API.Admin.AdminController",
+    "Method": "PatchIndustry",
+    "RelativePath": "api/Admin/PatchIndustry/{id}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "Job_Portal.API.Admin.Request_Objects.PatchIndustryDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Job_Portal.API.Admin.AdminController",
+    "Method": "PatchJobCategory",
+    "RelativePath": "api/Admin/PatchJobCategory/{id}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "Job_Portal.API.Admin.Request_Objects.PatchJobCategoryDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Job_Portal.API.Admin.AdminController",
+    "Method": "RejectJob",
+    "RelativePath": "api/Admin/RejectJob/{id}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Job_Portal.API.Admin.AdminController",
+    "Method": "AddSkill",
+    "RelativePath": "api/Admin/skillAdd",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "skill",
+        "Type": "Job_Portal.API.Admin.Request_Objects.SkillRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Job_Portal.API.Admin.AdminController",
+    "Method": "PatchSkill",
+    "RelativePath": "api/Admin/skillPatch/{skillId}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "skillId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "skill",
+        "Type": "Job_Portal.API.Admin.Request_Objects.SkillPatchRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Job_Portal.API.Admin.AdminController",
+    "Method": "RemoveSkill",
+    "RelativePath": "api/Admin/skillRemove/{skillId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "skillId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Job_Portal.API.Admin.AdminController",
+    "Method": "UpdateSkill",
+    "RelativePath": "api/Admin/skillUpdate/{skillId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "skillId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "skill",
+        "Type": "Job_Portal.API.Admin.Request_Objects.SkillRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Job_Portal.API.Admin.AdminFetchController",
+    "Method": "GetAllCompanyMembers",
+    "RelativePath": "api/AdminFetch/company-members",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Job_Portal.API.Admin.AdminFetchController",
+    "Method": "GetCompanyMemberById",
+    "RelativePath": "api/AdminFetch/company/member/{memberId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "memberId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Job_Portal.API.Admin.AdminFetchController",
+    "Method": "DeleteCompanyMember",
+    "RelativePath": "api/AdminFetch/company/member/{memberId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "memberId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Job_Portal.API.Admin.AdminFetchController",
+    "Method": "DeleteJobProvider",
+    "RelativePath": "api/AdminFetch/DeleteJobProvider/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Job_Portal.API.Admin.AdminFetchController",
+    "Method": "DeleteJobSeekerById",
+    "RelativePath": "api/AdminFetch/DeleteJobSeekerById/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Job_Portal.API.Admin.AdminFetchController",
+    "Method": "GetAllJobProviders",
+    "RelativePath": "api/AdminFetch/GetAllJobProviders",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Job_Portal.API.Admin.AdminFetchController",
+    "Method": "GetAllJobSeekers",
+    "RelativePath": "api/AdminFetch/GetAllJobSeekers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Job_Portal.API.Admin.AdminFetchController",
+    "Method": "GetJobByName",
+    "RelativePath": "api/AdminFetch/getbyname/{jobTitle}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "jobTitle",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Job_Portal.API.Admin.AdminFetchController",
+    "Method": "GetJobProviderById",
+    "RelativePath": "api/AdminFetch/GetJobProviderById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Job_Portal.API.Admin.AdminFetchController",
+    "Method": "GetJobSeekerById",
+    "RelativePath": "api/AdminFetch/GetJobSeekerById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Job_Portal.API.Admin.AdminFetchController",
+    "Method": "GetJobSeekerCount",
+    "RelativePath": "api/AdminFetch/GetJobSeekerCount",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Job_Portal.API.Admin.AdminFetchController",
+    "Method": "GetJobCount",
+    "RelativePath": "api/AdminFetch/Jobcount",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Job_Portal.API.Admin.AdminFetchController",
+    "Method": "GetJobProviderCount",
+    "RelativePath": "api/AdminFetch/JobProvidercount",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Job_Portal.API.JobProvider.JobProviderController",
+    "Method": "AddCompany",
+    "RelativePath": "api/JobProvider/{jobProviderId}/company",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "jobProviderId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "Job_Portal.API.JobProvider.RequestObjects.AddCompanyRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Job_Portal.API.JobProvider.JobProviderController",
+    "Method": "AddProfilePicture",
+    "RelativePath": "api/JobProvider/{jobProviderId}/profile-picture",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "jobProviderId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "file",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Job_Portal.API.JobProvider.JobProviderController",
+    "Method": "DeleteProfilePicture",
+    "RelativePath": "api/JobProvider/{jobProviderId}/profile-picture",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "jobProviderId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Job_Portal.API.JobProvider.JobProviderController",
+    "Method": "GetProfilePicture",
+    "RelativePath": "api/JobProvider/{jobProviderId}/profile-picture",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "jobProviderId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Job_Portal.API.JobProvider.JobProviderController",
+    "Method": "Verify",
+    "RelativePath": "api/JobProvider/{signUpRequestId}/verify-email",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "signUpRequestId",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Job_Portal.API.JobProvider.JobProviderController",
+    "Method": "GetApplicantByApplicationId",
+    "RelativePath": "api/JobProvider/applications/{applicationId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "applicationId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Job_Portal.API.JobProvider.JobProviderController",
+    "Method": "GetApplicationCount",
+    "RelativePath": "api/JobProvider/applications/count",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Job_Portal.API.JobProvider.JobProviderController",
+    "Method": "GetAllCompanies",
+    "RelativePath": "api/JobProvider/companies",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Job_Portal.API.JobProvider.JobProviderController",
+    "Method": "GetAllCompanyMembers",
+    "RelativePath": "api/JobProvider/company-members",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Job_Portal.API.JobProvider.JobProviderController",
+    "Method": "GetCompanyById",
+    "RelativePath": "api/JobProvider/company/{companyId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "companyId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Job_Portal.API.JobProvider.JobProviderController",
+    "Method": "UpdateCompany",
+    "RelativePath": "api/JobProvider/company/{companyId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "companyId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "Job_Portal.API.JobProvider.RequestObjects.UpdateCompanyRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Job_Portal.API.JobProvider.JobProviderController",
+    "Method": "PatchCompany",
+    "RelativePath": "api/JobProvider/company/{companyId}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "companyId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "Job_Portal.API.JobProvider.RequestObjects.PatchCompanyRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Job_Portal.API.JobProvider.JobProviderController",
+    "Method": "DeleteCompany",
+    "RelativePath": "api/JobProvider/company/{companyId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "companyId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Job_Portal.API.JobProvider.JobProviderController",
+    "Method": "AddCompanyMember",
+    "RelativePath": "api/JobProvider/company/{companyId}/member",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "companyId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "Job_Portal.API.JobProvider.RequestObjects.AddCompanyMemberRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Job_Portal.API.JobProvider.JobProviderController",
+    "Method": "GetCompanyMemberById",
+    "RelativePath": "api/JobProvider/company/member/{memberId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "memberId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Job_Portal.API.JobProvider.JobProviderController",
+    "Method": "UpdateCompanyMember",
+    "RelativePath": "api/JobProvider/company/member/{memberId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "memberId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "Job_Portal.API.JobProvider.RequestObjects.UpdateCompanyMemberRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Job_Portal.API.JobProvider.JobProviderController",
+    "Method": "PatchCompanyMember",
+    "RelativePath": "api/JobProvider/company/member/{memberId}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "memberId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "Job_Portal.API.JobProvider.RequestObjects.PatchCompanyMemberRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Job_Portal.API.JobProvider.JobProviderController",
+    "Method": "DeleteCompanyMember",
+    "RelativePath": "api/JobProvider/company/member/{memberId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "memberId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Job_Portal.API.JobProvider.JobProviderController",
+    "Method": "Login",
+    "RelativePath": "api/JobProvider/job-provider/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Domain.Service.Login.DTO.JobProviderLoginRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Domain.Service.Login.DTO.JobProviderLoginDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Job_Portal.API.JobProvider.JobProviderController",
+    "Method": "SetPassword",
+    "RelativePath": "api/JobProvider/job-provider/sign-up/{signUpRequestId}/set-password",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "signUpRequestId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "Domain.Service.SignUp.SetPasswordRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Job_Portal.API.JobProvider.JobProviderController",
+    "Method": "GetApplicantsByJobId",
+    "RelativePath": "api/JobProvider/jobs/{jobId}/applicants",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "jobId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Job_Portal.API.JobProvider.JobProviderController",
+    "Method": "Logout",
+    "RelativePath": "api/JobProvider/logout/{jobProviderId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "jobProviderId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Job_Portal.API.JobProvider.JobProviderController",
+    "Method": "Signup",
+    "RelativePath": "api/JobProvider/signup",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Domain.Service.SignUp.DTO.SignUpRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Job_Portal.API.JobProvider.JobProviderController",
+    "Method": "UpdateProfilePicture",
+    "RelativePath": "api/JobProvider/update-profile-picture/{jobProviderId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "jobProviderId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "file",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Job_Portal.API.JobSeeker.JobSeekerController",
+    "Method": "CancelAppliedJob",
+    "RelativePath": "api/JobSeeker/Cancel job-application",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "jobApplicationId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Job_Portal.API.JobSeeker.JobSeekerController",
+    "Method": "GetAppliedJobs",
+    "RelativePath": "api/JobSeeker/Get Applied-jobs",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Job_Portal.API.JobSeeker.JobSeekerController",
+    "Method": "GetSavedJobs",
+    "RelativePath": "api/JobSeeker/Get saved-jobs",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Job_Portal.API.JobSeeker.JobSeekerController",
+    "Method": "GetAllScheduledInterviews",
+    "RelativePath": "api/JobSeeker/Get scheduled-interviews",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Job_Portal.API.JobSeeker.JobSeekerController",
+    "Method": "GetAllJobs",
+    "RelativePath": "api/JobSeeker/GetAllJobs",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Job_Portal.API.JobSeeker.JobSeekerController",
+    "Method": "GetJobById",
+    "RelativePath": "api/JobSeeker/GetJobById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Job_Portal.API.JobSeeker.JobSeekerController",
+    "Method": "GetJobByTitle",
+    "RelativePath": "api/JobSeeker/GetJobByTitle/{title}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "title",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Job_Portal.API.JobSeeker.JobSeekerController",
+    "Method": "ApplyJob",
+    "RelativePath": "api/JobSeeker/Job-application",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Job_Portal.API.JobSeeker.RequestObjects.ApplyJobRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Job_Portal.API.JobSeeker.JobSeekerController",
+    "Method": "Login",
+    "RelativePath": "api/JobSeeker/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "logdata",
+        "Type": "Job_Portal.API.JobSeeker.RequestObjects.JobSeekerLoginRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Job_Portal.API.JobSeeker.JobSeekerController",
+    "Method": "Logout",
+    "RelativePath": "api/JobSeeker/Logout",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Job_Portal.API.JobSeeker.JobSeekerController",
+    "Method": "RemoveSavedJob",
+    "RelativePath": "api/JobSeeker/Remove saved-job",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "savedJobId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Job_Portal.API.JobSeeker.JobSeekerController",
+    "Method": "SaveJob",
+    "RelativePath": "api/JobSeeker/SaveJob",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "jobId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Job_Portal.API.JobSeeker.JobSeekerController",
+    "Method": "GetAppliedJobsByTitle",
+    "RelativePath": "api/JobSeeker/Search applied-jobs by Title",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "title",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Job_Portal.API.JobSeeker.JobSeekerController",
+    "Method": "GetSavedJobsByTitle",
+    "RelativePath": "api/JobSeeker/Search saved-jobs",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "title",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Job_Portal.API.JobSeeker.JobSeekerController",
+    "Method": "createJobSeekerSignupRequest",
+    "RelativePath": "api/JobSeeker/Set-password",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "jobSeekerSignupRequestId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "password",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Job_Portal.API.JobSeeker.JobSeekerController",
+    "Method": "createJobSeekerSignupRequest",
+    "RelativePath": "api/JobSeeker/Signup",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "Job_Portal.API.JobSeeker.RequestObjects.JobSeekerSignupRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Job_Portal.API.JobSeeker.JobSeekerController",
+    "Method": "VerifyJobSeekerEmail",
+    "RelativePath": "api/JobSeeker/Verify-email",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "jobSeekerSignupRequestId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Job_Portal.API.JobSeeker.JobSeekerProfileController",
+    "Method": "AddSkills",
+    "RelativePath": "api/JobSeekerProfile/Add-skills",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Job_Portal.API.JobSeeker.RequestObjects.AddJobSeekerSkillsRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Job_Portal.API.JobSeeker.JobSeekerProfileController",
+    "Method": "AddQualification",
+    "RelativePath": "api/JobSeekerProfile/AddQualification",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Job_Portal.API.JobSeeker.RequestObjects.QualificationAddRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Job_Portal.API.JobSeeker.JobSeekerProfileController",
+    "Method": "AddWorkExperience",
+    "RelativePath": "api/JobSeekerProfile/AddWorkExperience",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Job_Portal.API.JobSeeker.RequestObjects.AddWorkExperienceRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Job_Portal.API.JobSeeker.JobSeekerProfileController",
+    "Method": "CreateProfile",
+    "RelativePath": "api/JobSeekerProfile/Create-Profile",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ProfileName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ProfileSummary",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "SeekerImage",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "Resume",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Job_Portal.API.JobSeeker.JobSeekerProfileController",
+    "Method": "DeleteSkills",
+    "RelativePath": "api/JobSeekerProfile/Delete skills",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Job_Portal.API.JobSeeker.RequestObjects.DeleteSkillsRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Job_Portal.API.JobSeeker.JobSeekerProfileController",
+    "Method": "DeleteMyProfile",
+    "RelativePath": "api/JobSeekerProfile/Delete-Profile",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Job_Portal.API.JobSeeker.JobSeekerProfileController",
+    "Method": "DeleteQualification",
+    "RelativePath": "api/JobSeekerProfile/DeleteQualification",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "qualificationId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Job_Portal.API.JobSeeker.JobSeekerProfileController",
+    "Method": "DeleteWorkExperience",
+    "RelativePath": "api/JobSeekerProfile/DeleteWorkexperience",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Job_Portal.API.JobSeeker.JobSeekerProfileController",
+    "Method": "GetAllSkills",
+    "RelativePath": "api/JobSeekerProfile/Get all-skills",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Job_Portal.API.JobSeeker.JobSeekerProfileController",
+    "Method": "GetJobSeekerSkills",
+    "RelativePath": "api/JobSeekerProfile/Get skills",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Job_Portal.API.JobSeeker.JobSeekerProfileController",
+    "Method": "PatchProfile",
+    "RelativePath": "api/JobSeekerProfile/Patch-Profile",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ProfileName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ProfileSummary",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "SeekerImage",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "Resume",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Job_Portal.API.JobSeeker.JobSeekerProfileController",
+    "Method": "PatchQualification",
+    "RelativePath": "api/JobSeekerProfile/PatchQualification",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "request",
+        "Type": "Job_Portal.API.JobSeeker.RequestObjects.QualificationPatchRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Job_Portal.API.JobSeeker.JobSeekerProfileController",
+    "Method": "PatchWorkExperience",
+    "RelativePath": "api/JobSeekerProfile/PatchWorkExperience",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Job_Portal.API.JobSeeker.RequestObjects.PatchWorkExperienceRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Job_Portal.API.JobSeeker.JobSeekerProfileController",
+    "Method": "UpdateProfile",
+    "RelativePath": "api/JobSeekerProfile/Update-Profile",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ProfileName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ProfileSummary",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "SeekerImage",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "Resume",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Job_Portal.API.JobSeeker.JobSeekerProfileController",
+    "Method": "UpdateQualification",
+    "RelativePath": "api/JobSeekerProfile/UpdateQualification/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "Job_Portal.API.JobSeeker.RequestObjects.QualificationUpdateRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Job_Portal.API.JobSeeker.JobSeekerProfileController",
+    "Method": "UpdateWorkExperience",
+    "RelativePath": "api/JobSeekerProfile/UpdateWorkExperience",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Job_Portal.API.JobSeeker.RequestObjects.UpdateWorkExperienceRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Job_Portal.API.JobSeeker.JobSeekerProfileController",
+    "Method": "GetMyProfile",
+    "RelativePath": "api/JobSeekerProfile/View-Profile",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Job_Portal.API.JobSeeker.JobSeekerProfileController",
+    "Method": "ViewMyResume",
+    "RelativePath": "api/JobSeekerProfile/View-Resume",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Job_Portal.API.JobSeeker.JobSeekerProfileController",
+    "Method": "ViewQualifications",
+    "RelativePath": "api/JobSeekerProfile/ViewQualification",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Job_Portal.API.JobSeeker.JobSeekerProfileController",
+    "Method": "ViewWorkExperience",
+    "RelativePath": "api/JobSeekerProfile/ViewWorkexperience",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Job_Portal.API.Jobs.PostJobController",
+    "Method": "CreateJobPost",
+    "RelativePath": "api/PostJob/jobs",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Job_Portal.API.Jobs.RequestObjects.CreateJobPostRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Job_Portal.API.Jobs.PostJobController",
+    "Method": "GetAllJobs",
+    "RelativePath": "api/PostJob/jobs",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Job_Portal.API.Jobs.PostJobController",
+    "Method": "GetJobById",
+    "RelativePath": "api/PostJob/jobs/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Job_Portal.API.Jobs.PostJobController",
+    "Method": "UpdateJobById",
+    "RelativePath": "api/PostJob/jobs/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "Job_Portal.API.Jobs.RequestObjects.UpdateJobPostRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Job_Portal.API.Jobs.PostJobController",
+    "Method": "PatchJobById",
+    "RelativePath": "api/PostJob/jobs/{id}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "Job_Portal.API.Jobs.RequestObjects.PatchJobPostRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Job_Portal.API.Jobs.PostJobController",
+    "Method": "DeleteJobById",
+    "RelativePath": "api/PostJob/jobs/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Job_Portal.API.JobProvider.ScheduleInterviewController",
+    "Method": "ScheduleInterview",
+    "RelativePath": "api/ScheduleInterview",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Job_Portal.API.JobProvider.RequestObjects.ScheduleInterviewRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Job_Portal.API.JobProvider.ScheduleInterviewController",
+    "Method": "GetAllScheduledInterviews",
+    "RelativePath": "api/ScheduleInterview",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Job_Portal.API.JobProvider.ScheduleInterviewController",
+    "Method": "GetInterviewById",
+    "RelativePath": "api/ScheduleInterview/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Job_Portal.API.JobProvider.ScheduleInterviewController",
+    "Method": "UpdateInterview",
+    "RelativePath": "api/ScheduleInterview/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "Job_Portal.API.JobProvider.RequestObjects.UpdateInterviewRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Job_Portal.API.JobProvider.ScheduleInterviewController",
+    "Method": "PatchInterview",
+    "RelativePath": "api/ScheduleInterview/{id}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "Job_Portal.API.JobProvider.RequestObjects.PatchInterviewRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Job_Portal.API.JobProvider.ScheduleInterviewController",
+    "Method": "DeleteInterview",
+    "RelativePath": "api/ScheduleInterview/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Job_Portal.API.JobProvider.ScheduleInterviewController",
+    "Method": "UpdateInterviewStatus",
+    "RelativePath": "api/ScheduleInterview/{id}/status",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "Job_Portal.API.JobProvider.RequestObjects.UpdateInterviewStatusRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Job_Portal.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Job_Portal.WeatherForecast, Job_Portal, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]

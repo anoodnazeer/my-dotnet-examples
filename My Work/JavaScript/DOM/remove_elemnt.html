@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="name">
+    <button id ="add" onclick="addparagraph()">Add</button>
+    
+    <script>
+        function addparagraph()
+        {
+            let add=document.createElement('p');
+            let value=document.getElementById("name").value;
+            // add.textContent=value;
+            add.innerHTML=`<span> name : </span> ${value}`;
+            document.body.appendChild(add);
+
+            let button = document.createElement("Button");
+            button.innerText = "Remove";
+            button.id="btn_remove";
+             add.appendChild(button);
+
+            button.addEventListener("click", removepara )
+            function removepara()
+            {
+                add.remove();
+            }
+         }
+        
+    </script>
+</body>
+</html>

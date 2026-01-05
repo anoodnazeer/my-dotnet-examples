@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src='main.js'></script>
+    <style>
+        
+        .img1{
+            position: absolute;
+            float: right;
+            right: 0;
+        }
+        .nav{
+            margin-left: auto;
+           
+        }
+        .nav li a{
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+            list-style: none;
+            text-align: center;
+            border-top-left-radius: 18px;
+            border-top-right-radius: 18px;
+            display: inline-block;  
+            position: relative;  
+            height: 35px;  
+            
+        }
+        .nav li a:hover{
+            color: blue;
+            
+        }
+
+        li:last-child {
+            margin-right: 0;
+            }
+            li:after {
+                content: '';
+                display: block;
+                margin: auto;
+                height: 3px;
+                width: 0px;
+                background: transparent;
+                /* transition: width .5s ease, background-color .5s ease; */
+            }
+            li:hover:after {
+                width: 100%;
+                background: blue;
+               
+            }
+
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row"  >
+            <div class="col-md-12">            
+                <img src="images/main-img.png" class="img-fluid img1">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="header ">
+                        <nav class="navbar navbar-expand-sm ms-5 ">
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <h1 class="h1 fs-1">HireMe Now!</h1>
+                            <div class="collapse navbar-collapse" id="navbarText">
+                                <ul class="nav navbar-nav  text-secondary h5 " >
+                                    <li class="active "><a href="#">Home</a></li>
+                                    <li><a href="#">Post A Job</a></li>
+                                    <li><a href="#">About</a></li>
+                                    <li><a href="#">Feature</a></li>
+                                </ul>                
+                                <ul class="nav navbar-nav ml-auto text-secondary h4 fw-bold">
+                                    <li ><a href="#">Login</a></li>
+                                    <li><a href="#">SignIn</a></li>                        
+                                </ul>
+                            </div>
+
+                            <button class="btn btn-primary">Click</button>
+                        </nav>
+                    </div>                
+                </div>
+            </div>    
+        </div>
+</body>
+</html>

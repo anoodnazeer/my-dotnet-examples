@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="taskInput" placeholder="Enter task">
+<button onclick="addTask()">Add Task</button>
+<ul id="taskList"></ul>
+
+<script>
+  let tasks = [];
+
+  function addTask() {
+    let taskInput = document.getElementById("taskInput");
+    let taskText = taskInput.value.trim();
+
+    if (taskText === "") return;
+
+    tasks.push(taskText);
+    updateTaskList();
+    taskInput.value = "";
+  }
+
+  function updateTaskList() {
+    let ul = document.getElementById("taskList");
+    ul.innerHTML = ""; // Clear list before re-adding
+
+    tasks.forEach((task, index) => {
+      let li = document.createElement("li");
+      li.textContent = task;
+
+      let delButton = document.createElement("button");
+      delButton.textContent = "Delete";
+      delButton.onclick = () => removeTask(index);
+
+      li.appendChild(delButton);
+      ul.appendChild(li);
+    });
+  }
+
+  function removeTask(index) {
+    tasks.splice(index, 1);
+    updateTaskList();
+  }
+</script>
+
+</body>
+</html>

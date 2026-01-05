@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Machine Test</title>
+</head>
+<body>
+
+<input type="number" id="myTxtBox" placeholder="Enter a number">
+<button onclick="addNmbers()">Add Number</button>
+<button onclick="SortAscending()">Sort Ascending</button>
+<button>Sort Descending</button>
+
+<ul id="listId"></ul>
+
+<script>
+ 
+ let numbers=[];
+  
+ function addNmbers()
+  {
+    let getnumber=document.getElementById("myTxtBox");
+    let num=parseInt(getnumber.value,10);
+
+    if(!isNaN(num))
+  {
+    numbers.push(num);
+    getnumber.value='';
+    displaylist();
+  }
+}
+
+function displaylist()
+{
+    let listitem=document.getElementById("listId");
+    listitem.innerHTML="";
+    for( let number of numbers)
+{
+    let li=document.createElement("li");
+        li.textContent=number;
+        listitem.appendChild(li);
+    }
+}
+
+
+function SortAscending()
+ 
+{
+    let listitem=document.getElementById("listId");
+    let items=Array.from(listitem.getElementsByTagName('li'))
+    for(i=1;i<listitem.length-1;i++)
+     
+{ 
+    for(j=i; j<listitem.length;j++)
+{
+    listitem.sort((i,j)=>parseInt(i.textContent)-parseInt(j.textContent));
+    
+    
+}
+}
+ 
+
+}
+</script>
+    
+</body>
+</html>

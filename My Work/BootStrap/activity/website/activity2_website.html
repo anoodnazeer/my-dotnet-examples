@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tasty Food</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <style>
+      img.slide
+      {
+        height: 800px;
+      }
+    </style>
+
+</head>
+
+
+<body>
+<!-- ......navbar...... -->
+
+    <nav class="navbar navbar-expand-lg bg-warning fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Tasty Foods</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" 
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#carouselExampleCaptions">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#order">Orders</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Deals
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#footer" aria-disabled="true">Location</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <!-- ......carousel..... -->
+
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./images/Biryani's House.jpg" class="slide d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Thalasseri Biriyani</h5>
+              <p>Thalassery chicken biryani also known as malabar chicken biryani is one of the most popular foods from kerala cuisine made with jeerakasala rice & spices.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./images/haderabadi biryani.jpg" class=" slide d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Haderabadi Biryani</h5>
+              <p>Hyderabadi biryani is a style of biryani originating from Hyderabad, India made with basmati rice and meat (mostly goat meat)</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./images/Spicy dum biryani.jpg" class="slide d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Spicy dum Biryani</h5>
+              <p>Biryani: where every grain of rice tells a story of flavor and spice </p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <!-- ......order section..... -->
+
+    
+      <div class="container" id="order">
+        <h2 class="text-center">Order Your Foods Now..... !</h2>
+        <div class="row my-2">
+            <div class="col-md-4">
+              <div class="card text-center border-2 border-warning" style="width: 18rem; height: 40rem;">
+                <img src="./images/Chicken Biryani.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Chicken Biriyani</h5>
+                  <p class="card-text">Chicken biryani is an evergreen dish that needs no introduction.</p>
+                  <h5 class="card-title text-danger">Rs: 200.00</h5>
+                  <a href="#" class="btn btn-primary">Order Now</a>
+                </div>
+              </div>
+            </div>  
+
+            <div class="col-md-4">
+              <div class="card text-center border-2 border-warning" style="width: 18rem; height: 40rem;">
+                <img src="./images/Mutton Biryani _ Best Food For Health.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Mutton Biriyani</h5>
+                  <p class="card-text"> A symphony of spices and tender meat.</p>
+                  <h5 class="card-title text-danger">Rs: 400.00</h5>
+                  <a href="#" class="btn btn-primary">Order Now</a>
+                </div>
+              </div>
+            </div> 
+
+            <div class="col-md-4">
+              <div class="card text-center border-2 border-warning" style="width: 18rem; height: 40rem;">
+                <img src="./images/The Grill Mill.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">The Grill Mill</h5>
+                  <p class="card-text"> A large platter filled with kubboos and meat.</p>
+                  <h5 class="card-title text-danger">Rs: 300.00</h5>
+                  <a href="#" class="btn btn-primary">Order Now</a>
+                </div>
+              </div>
+            </div> 
+            </div>  
+         
+
+        <div class="row my-2">
+          <div class="col-md-4">
+            <div class="card text-center border-2 border-warning" style="width: 18rem; height: 35rem;">
+              <img src="./images/Chicken 65.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Chicken 65</h5>
+                <p class="card-text"> a spicy, deep-fried chicken dish popular in South Indian cuisine</p>
+                <h5 class="card-title text-danger">Rs: 100.00</h5>
+                <a href="#" class="btn btn-primary">Order Now</a>
+              </div>
+            </div>
+          </div>
+           
+          <div class="col-md-4">
+            <div class="card text-center border-2 border-warning" style="width: 18rem; height: 35rem;">
+              <img src="./images/grillfish.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">The Grill Fish</h5>
+                <p class="card-text"> Fresh from the sea, straight to the soul.</p>
+                <h5 class="card-title text-danger">Rs: 150.00</h5>
+                <a href="#" class="btn btn-primary">Order Now</a>
+              </div>
+            </div>
+          </div>
+         
+          <div class="col-md-4">
+            <div class="card text-center border-2 border-warning" style="width: 18rem; height: 35rem;">
+              <img src="./images/chicken tikka - glebe kitchen.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">chicken tikka</h5>
+                <p class="card-text">A flavorful and tender, essentially a boneless version of tandoori chicken.</p>
+                <h5 class="card-title text-danger">Rs: 199.00</h5>
+                <a href="#" class="btn btn-primary">Order Now</a>
+              </div> 
+             </div>
+          </div>
+      </div>
+    </div> 
+    
+    <!-- ......footer..... -->
+
+    <div class="container-fluid bg-warning" id="footer"> 
+      <div class="row">
+        <h4 class="text-center">Location</h4>
+        <div class="col-md-6">
+          <h4 class="text-white">Tasty Food Restaurant</h4>
+          <h5>Thrissur,Triprayar</h5>
+          <h5>Kerala</h5>
+          <p>Tel:1234567890</p>
+          <p>Email: tastyfood@gamil.com</p>
+          <p>Website: www.tastyfood.com</p>
+        </div>
+        <div class="col-md-6">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15696.326656053096!2d76.09656042455855!3d10.415088739722231!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba7f342cf886e37%3A0x8b237cd2db24c3bc!2sTriprayar%2C%20Kerala!5e0!3m2!1sen!2sin!4v1742327846610!5m2!1sen!2sin" 
+          width="350" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+        </div>
+
+      </div>
+
+    </div>
+</body>
+</html>

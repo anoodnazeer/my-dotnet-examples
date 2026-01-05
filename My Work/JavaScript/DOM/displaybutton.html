@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+         button
+         {
+            font-size: 20px;
+            border-radius: 10px;
+            color: rgb(9, 9, 9);
+         }
+         /* .red_btn
+         {
+            background-color: red;
+         }
+         .green_btn
+         {
+            background-color: green;
+        }
+         .blue_btn
+         {
+            background-color: blue;
+         } */
+    </style>
+
+
+
+</head>
+<body>
+
+
+    <div class="btn_container">
+        <button id="red_btn">RED</button>
+        <button id="green_btn">GREEN</button>
+        <button id="blue_btn">BLUE</button>
+    </div>
+
+    <script>
+         function changecolor(color)
+         {
+            document.body.style.backgroundColor=color;
+         }
+
+         document.getElementById("red_btn").addEventListener("click",()=>changecolor("red"));
+         document.getElementById("green_btn").addEventListener("click",()=>changecolor("green"));
+         document.getElementById("blue_btn").addEventListener("click",()=>changecolor("blue"));
+    </script>
+</body>
+</html>

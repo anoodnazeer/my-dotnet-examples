@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/solid.min.css" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/svg-with-js.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-datalabels/2.2.0/chartjs-plugin-datalabels.min.js" integrity="sha512-JPcRR8yFa8mmCsfrw4TNte1ZvF1e3+1SdGMslZvmrzDYxS69J7J49vkFL8u6u8PlPJK+H3voElBtUCzaXj+6ig==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"> <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous"> -->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+
+<style>
+      body{
+            background-color: #F2F2F2;
+            
+        }
+    #sidebar{
+        background-color: #40189D;
+    }
+    #sidebar-div .nav .nav-item{
+            width: 100%;
+            position:relative;        
+           
+        } 
+        #sidebar-div .nav .nav-item:hover{
+            background-color: #F2F2F2;
+            color: black;   
+            border-top-left-radius: 25px; 
+            border-bottom-left-radius: 25px;             
+        } 
+        ul.nav .nav-item .nav-link, ul.nav .nav-item .nav-link:visited {
+            color: rgb(255, 255, 255) !important;            
+        }
+
+        ul.nav .nav-item .nav-link:hover, ul.nav .nav-item .nav-link:active {
+            color: rgb(0, 0, 0) !important;
+        }
+        .nav-item:hover::after  {
+            content: "";
+            position: absolute;
+            background-color: transparent;
+            bottom: 100%;
+            right: 0;
+            height: 100%;
+            width: 45px;
+            border-bottom-right-radius: 30px;
+            box-shadow: 0 30px 0 0 #F2F2F2;
+          
+          }
+          .nav-item:hover::before  {
+            content: "";
+            position: absolute;
+            background-color: transparent;
+            top: 100%;
+            right: 0;
+            height: 100%;
+            width: 45px;
+            border-top-right-radius: 30px;
+            box-shadow: 0 -30px 0 0 #F2F2F2;
+          
+          }
+          #main-content::before  {
+            content: "";
+            position: absolute;
+            background-color: transparent;
+            top: 0%;
+            left: 16.7%;
+            height: 25%;
+            width: 50px;
+            border-top-left-radius: 30px;
+            box-shadow: 0px -30px 0 0px #40189D;
+          
+          }
+          .card{
+            color: #FFFFFF;
+          }
+</style>
+    <script src='main.js'></script>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row flex-nowrap">
+            <div class="col-auto col-md-3 col-xl-2  px-0 pt-3 " id="sidebar">
+                <img class="img-fluid mx-2"  src="images/Group 8.png">
+                <img class="img-fluid ml-2"  src="images/Jobie.png">
+                
+                <div class="d-flex flex-column  pt- text-white min-vh-100" id="sidebar-div">
+                   
+                    
+                    <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start pt-3" id="menu">
+                        <li class="nav-item py-1" id="listitems" >
+                            <a href="#" class="nav-link px-0 align-middle link-light"   >
+                                <i class="ms-3 fs-5 bi-house-fill"></i>
+                                <span class="ms-4 d-none d-sm-inline" >Dashboard</span>
+                            </a>
+                        </li>
+                        <li class="nav-item py-1  ">
+                            <a href="#"  class="nav-link px-0 align-middle link-light"  >
+                                <i class="ms-3 fs-5  bi bi-people-fill"></i>
+                                <span class="ms-4 d-none d-sm-inline">Job Providers</span> </a>
+                        </li>
+                        <li  class="nav-item py-1">
+                            <a href="#" class="nav-link px-0 align-middle link-light"  >
+                                <i class="ms-3 fs-5  bi bi-file-text-fill"></i>
+                                <span class="ms-4 d-none d-sm-inline">New Registrations</span></a>
+                        </li>
+                        <li  class="nav-item py-1">
+                            <a href="#" class="nav-link  px-0 align-middle link-light" >
+                                <i class="ms-3 fs-5  bi bi-search"></i>
+                                <span class="ms-4 d-none d-sm-inline">Job Seekers</span>
+                            </a>                   
+                        </li>
+                        <li  class="nav-item py-1">
+                            <a href="#" class="nav-link px-0 align-middle link-light">
+                                <i class="ms-3 fs-5 bi-grid-fill"></i>
+                                <span class="ms-4 d-none d-sm-inline">Jobs</span></a>
+                        </li>
+                        <li  class="nav-item py-1">
+                            <a href="#" class="nav-link px-0 align-middle link-light">
+                                <i class="ms-3 fs-5 bi bi-person-fill"></i>
+                                <span class="ms-4 d-none d-sm-inline">My Profile</span> </a>
+                        </li>
+                        <li  class="nav-item py-1">
+                            <a href="#" class="nav-link px-0 align-middle link-light">
+                                <i class="ms-3 fs-5 bi bi-envelope-fill"></i>
+                                <span class="ms-4 d-none d-sm-inline">Messages</span> </a>
+                        </li>
+                        <li  class="nav-item py-1">
+                            <a href="#" class="nav-link px-0 align-middle link-light">
+                                <i class="ms-3 fs-5 bi bi-gear-fill"></i>
+                                <span class="ms-4 d-none d-sm-inline">Settings</span> </a>
+                        </li>
+                        <li  class="nav-item py-1">
+                            <a href="#" class="nav-link px-0 align-middle  link-light">
+                                <span class=" ms-4 ms-1 d-none d-sm-inline">Logout</span> </a>
+                        </li> 
+                       
+                        
+                    </ul>
+                   
+                    <div class="py-3 ">
+                        
+                        
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="col py-3 " id="main-content">
+               <div class="row">
+               
+                    <nav class="navbar navbar-expand-lg navbar-light ">
+                        <div class="col-md-3">
+                            <img class="img-fluid px-3" src="images/ic_menu.png">
+                            <a class="navbar-brand mx-auto px-3" href="#">Dashboard</a>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#sidebar-div" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                            </button>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="input-group rounded-pill  bg-light">
+                                <button type="button" class="btn ">
+                                    <i class="bi bi-search"></i>
+                                </button>
+                                <div class="form-outline bg-light">
+                                    <input type="search"  id="form1" class="form-control bg-light border-0" placeholder="Search something here"  />
+                                </div>                                    
+                          </div>
+                        </div>
+                        <div class="col-md-2">
+                           
+                        </div>
+                        <div class="col-md-3">
+                            <ul class="navbar-nav  mt-2 mt-lg-0">
+                                <li class="nav-item active">
+                                    <img class="img-fluid"  src="images/notification.png">
+                                </li>
+                                <li class="nav-item">
+                                    <img class="img-fluid" src="images/noti.png">
+                                </li>
+                                <li class="nav-item">
+                                    <img class="img-fluid" src="images/profile.png">
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+<!--*********************************************end first row***************************************-->
+                <div class="row py-4">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-8  align-middle">
+                        <div class="row">
+                            <div class="col-xxl-4 col-md-4 cardcol ">
+                                <div class="card info-card  shadow card-hover rounded" style=" background-color: #1BD084; border: 0;">        
+                                  <diV class="row">
+                                    <div class="col-sm-4 p-4">
+                                        <img src="images/background.png" class="position-absolute img-fluid">
+                                        <img src="images/icon-person.png" class="position-absolute img-fluid">
+                                    </div>
+                                    <div class="col-sm-8 ps-3 py-4 align-items-center">
+                                        <h6 class=" h6">Total Jobs Posted</h6>
+                                        <div class="ps-3">
+                                            <h2 class="h2">45,673</h2>                                        
+                                          </div>
+                                    </div>
+                                  </diV>    
+                                       
+                                </div>
+                              </div>
+
+                              <div class="col-xxl-4 col-md-4 cardcol ">
+                                <div class="card info-card  shadow card-hover rounded" style=" background-color: #48A9F8; border: 0;">        
+                                  <diV class="row">
+                                    <div class="col-sm-4 p-4">
+                                        <img src="images/background.png" class="position-absolute img-fluid">
+                                        <img src="images/icon-suitcase.png" class="position-absolute img-fluid">
+                                    </div>
+                                    <div class="col-sm-8 ps-3 py-4 align-items-center">
+                                        <h6 class=" h6">Total Jobs Seekers</h6>
+                                        <div class="ps-3">
+                                            <h2 class="h2">7500</h2>                                        
+                                          </div>
+                                    </div>
+                                  </diV>    
+                                       
+                                </div>
+                              </div>
+
+                              <div class="col-xxl-4 col-md-4 cardcol ">
+                                <div class="card info-card  shadow card-hover rounded" style=" background-color: #4E36E2; border: 0;">        
+                                  <diV class="row">
+                                    <div class="col-sm-4 p-4">
+                                        <img src="images/background.png" class="position-absolute img-fluid">
+                                        <img src="images/icon-building.png" class="position-absolute img-fluid">
+                                    </div>
+                                    <div class="col-sm-8 ps-3 py-4 align-items-center">
+                                        <h6 class=" h6">Total Companies</h6>
+                                        <div class="ps-3">
+                                            <h2 class="h2">93</h2>                                        
+                                          </div>
+                                    </div>
+                                  </diV>    
+                                       
+                                </div>
+                              </div>
+                  
+                        </div>
+                        <div class="row py-4">
+                            <div class="col-xxl-4 col-md-4 cardcol ">
+                                <div class="card info-card  shadow card-hover rounded" style=" background-color: #4E36E2; border: 0;">        
+                                  <diV class="row">
+                                    <div class="col-sm-4 p-4">
+                                        <img src="images/background.png" class="position-absolute img-fluid">
+                                        <img src="images/icon-calender.png" class="position-absolute img-fluid">
+                                    </div>
+                                    <div class="col-sm-8 ps-3 py-4 align-items-center">
+                                        <h6 class=" h6">New Jobs</h6>
+                                        <div class="ps-3">
+                                            <h2 class="h2">86</h2>                                        
+                                          </div>
+                                    </div>
+                                  </diV>    
+                                       
+                                </div>
+                              </div>
+
+                              <div class="col-xxl-4 col-md-4 cardcol ">
+                                <div class="card info-card  shadow card-hover rounded" style=" background-color: #48A9F8; border: 0;">        
+                                  <diV class="row">
+                                    <div class="col-sm-4 p-4">
+                                        <img src="images/background.png" class="position-absolute img-fluid">
+                                        <img src="images/icon-calender.png" class="position-absolute img-fluid">
+                                    </div>
+                                    <div class="col-sm-8 ps-3 py-4 align-items-center">
+                                        <h6 class=" h6">New Jobs Seekers</h6>
+                                        <div class="ps-3">
+                                            <h2 class="h2">86</h2>                                        
+                                          </div>
+                                    </div>
+                                  </diV>    
+                                       
+                                </div>
+                              </div>
+
+                              <div class="col-xxl-4 col-md-4 cardcol ">
+                                <div class="card info-card  shadow card-hover rounded" style=" background-color: #8BC740; border: 0;">        
+                                  <diV class="row">
+                                    <div class="col-sm-4 p-4">
+                                        <img src="images/background.png" class="position-absolute img-fluid">
+                                        <img src="images/icon-suitcase.png" class="position-absolute img-fluid">
+                                    </div>
+                                    <div class="col-sm-8 ps-3 py-4 align-items-center">
+                                        <h6 class=" h6">Ne Companies</h6>
+                                        <div class="ps-3">
+                                            <h2 class="h2">75</h2>                                        
+                                          </div>
+                                    </div>
+                                  </diV>    
+                                       
+                                </div>
+                              </div>
+                  
+                        </div>
+                    </div>
+                    <div class="col-md-2"></div>
+                </div>
+
+ <!--***********************card row end************************************************-->
+                <div class="row py-3">
+                    <div class="col-md-12 px-5">
+                        <img src="images/jobStatistic.png" class="img-fluid">
+                    </div>
+                </div>
+
+
+
+
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>

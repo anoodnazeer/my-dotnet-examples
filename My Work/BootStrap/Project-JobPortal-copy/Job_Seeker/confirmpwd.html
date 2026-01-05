@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f8f9fa;
+  }
+  
+  .form-container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+  }
+
+  .form-container img {
+    width: 150px;
+    margin-bottom: 20px;
+  }
+
+  label {
+    display: block;
+    text-align: left;
+    font-weight: bold;
+    margin: 10px 0 5px;
+  }
+
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  .submit-btn {
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    padding: 12px;
+    width: 100%;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .submit-btn:hover {
+    background-color: #357ab7;
+  }
+
+  .submit-btn i {
+    margin-left: 8px;
+  }
+</style>
+</head>
+<body>
+
+<div class="form-container">
+  <img src="images/images (3).jpg" alt="Secure Login">
+  
+  <form>
+    <label for="password">&#128274; Password:</label>
+    <input type="password" id="password" name="password" required>
+
+    <label for="confirm-password">&#10004; Confirm Password:</label>
+    <input type="password" id="confirm-password" name="confirm-password" required>
+
+    <button type="submit" class="submit-btn">Submit </button>
+  </form>
+</div>
+
+</body>
+</html>

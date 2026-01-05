@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .counter {
+            font-size: 50px;
+            margin: 20px;
+        }
+
+        button {
+            font-size: 17px;
+            padding: 10px 20px;
+            margin: 5px;
+            border-radius: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="counter" id="counter">0</div>
+    <button id="btn_increase" onclick="increase()">Increase</button>
+    <button id="btn_decrease" onclick="decrease()">Decrease</button>
+    <button  id="btn_reset" onclick="reset()">Reset</button>
+
+    <script>
+        let count = 0;
+        
+        function updateCounter() 
+        {
+            document.getElementById('counter').textContent = count;
+        }
+        
+        function increase()
+         {
+            count++;
+            updateCounter();
+        }
+        
+        function decrease() 
+        {
+           if(count>0)
+           {
+                count--;
+                updateCounter();
+            }
+        }
+        function reset()
+         {
+            count = 0;
+            updateCounter();
+        }
+
+        // document.getElementById("btn_increase").addEventListener("click",()=>increase());
+        //  document.getElementById("btn_decrease").addEventListener("click",()=>decrease());
+        //  document.getElementById("btn_reset").addEventListener("click",()=>reset());
+    </script>
+</body>
+</html>

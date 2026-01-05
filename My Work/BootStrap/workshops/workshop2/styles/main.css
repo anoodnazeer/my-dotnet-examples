@@ -1,0 +1,20 @@
+body{
+    overflow: hidden;
+    position: relative;
+}
+.login{
+    margin-left:829px;
+    margin-top: -8px;
+    position: absolute;
+    width: 700px;
+    height: 900px;
+    background-color: #ffffff;
+}
+.img-cur{
+    position: absolute;
+    background-color: #dcdcdc;
+    width: 837px;
+    height: 744px;
+    margin-left: -8px;
+    margin-top: -8px;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="mybtn">Click me</button>
+    <h1>Welcome</h1>
+    <p class="greet"> helo...how r u?</p>
+    <div class="wishes">Goodmorning</div>
+    <script>
+       let head= document.getElementsByTagName("h1");
+       console.log(head);
+       let g=document.getElementsByClassName("greet")
+       console.log(g);
+       let btn=document.querySelector("#mybtn")
+       console.log(btn);
+       let para=document.querySelector(".greet")
+       console.log(para);
+    //    let wish=document.querySelectorAll(".g");
+    //    console.log(wish);
+        document.getElementById("mybtn").onclick=function()
+        {
+            this.textContent="clicked";
+        }
+    </script>
+</body>
+</html>

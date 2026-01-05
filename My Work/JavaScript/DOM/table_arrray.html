@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="1">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody id="dataTable"></tbody>
+      </table>
+      
+      <button onclick="addRow()">Add Random Person</button>
+      
+      <script>
+        let people = [
+          { name: "Alice", age: 25 },
+          { name: "Bob", age: 30 },
+          { name: "Charlie", age: 28 }
+        ];
+      
+        function displayTable() {
+          let tbody = document.getElementById("dataTable");
+          tbody.innerHTML = ""; // Clear before re-adding
+      
+          people.forEach((person, index) => {
+            let tr = document.createElement("tr");
+      
+            let nameTd = document.createElement("td");
+            nameTd.textContent = person.name;
+            tr.appendChild(nameTd);
+      
+            let ageTd = document.createElement("td");
+            ageTd.textContent = person.age;
+            tr.appendChild(ageTd);
+      
+            let actionTd = document.createElement("td");
+            let delButton = document.createElement("button");
+            delButton.textContent = "Delete";
+            delButton.onclick = () => removeRow(index);
+      
+            actionTd.appendChild(delButton);
+            tr.appendChild(actionTd);
+      
+            tbody.appendChild(tr);
+          });
+        }
+      
+        function addRow() {
+          let names = ["David", "Emma", "Frank", "Grace"];
+          let randomName = names[Math.floor(Math.random() * names.length)];
+          let randomAge = Math.floor(Math.random() * 40) + 20;
+      
+          people.push({ name: randomName, age: randomAge });
+          displayTable();
+        }
+      
+        function removeRow(index) {
+          people.splice(index, 1);
+          displayTable();
+        }
+      
+        // Initial table load
+        displayTable();
+      </script>
+</body>
+</html>

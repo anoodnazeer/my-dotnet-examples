@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <input type="text" id="name_id" >
+    <button onclick="addRow()">Add</button>
+
+    <table border="1">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody id="table_id"></tbody>
+
+        <script>
+
+            let add_name = document.getElementById("name_id");
+            let addName = name_id.value.trim();
+            
+            let tbody = document.getElementById("table_id");
+            tbody.innerHTML = "";
+
+              let tr = document.createElement("tr");
+
+              let name_field = document.createElement("td");
+              name_field.textContent =addName;
+              tr.appendChild(name_field);
+
+              tbody.appendChild(tr);
+
+
+              function addRow() {
+
+         let add_name = document.getElementById("name_id");
+         let addName = name_id.value;
+          
+          let randomName =  addName
+          people.push({ Name: randomName });
+          displayTable();
+        }
+        </script>
+</body>
+</html>

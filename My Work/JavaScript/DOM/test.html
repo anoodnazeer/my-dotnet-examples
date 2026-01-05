@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+     
+</head>
+<body>
+    <div id="imageContainer"></div>
+
+    <script>
+        const images = [
+    'DOM\images\sample.jpg',
+    'https://via.placeholder.com/200',
+    'https://via.placeholder.com/250'
+];
+
+// Select the div container
+const container = document.getElementById('imageContainer');
+
+// Loop through the array and append images
+images.forEach(src => {
+    const img = document.createElement('img');
+    img.src = src;
+    img.alt = 'Image';
+    img.style.margin = '10px'; // Optional styling
+    container.appendChild(img);
+});
+    </script>
+</body>
+</html>
